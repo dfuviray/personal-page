@@ -1,9 +1,14 @@
 import React from "react";
+import Sidebar from "./components/sidebar";
+import About from "./components/about";
 
 function App() {
   return (
-    <div className="App">
-      <h1>React App in progress</h1>
+    <div>
+      <div className="row">
+        <Sidebar />
+        <About />
+      </div>
     </div>
   );
 }
