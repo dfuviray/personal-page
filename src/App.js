@@ -5,7 +5,7 @@ import About from "./components/about";
 function App() {
   return (
     <div>
-      <div className="row">
+      <div>
         <Sidebar />
         <About />
       </div>

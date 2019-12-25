@@ -1,32 +1,26 @@
 import React from "react";
+import profilePicture from "../images/profile.png";
 
 const About = () => {
   return (
-    <div className="section-about  ml-8 pt-4">
-      <div className="col s12 m7 l8 offset-m4 offset-l3">
-        <h3>
-          <span className="orangeyellow-text">DEO FLAUREN</span>
-          <span className="dark-orangeyellow-text"> VIRAY</span>
-        </h3>
-        <p className="move-up-2 font-size-3 opacity-1">Front-end Developer</p>
-
-        <p className="font-size-3 dark-orangeyellow-text">
-          Hi! My name is Deo I am a{" "}
-          <span className="orangeyellow-text">Front-end</span> Developer from
-          Philippines. <br />
-          Even I have plenty of Backend experiences in the past. <br />
-          Front-end Developement is really what{" "}
-          <span className="orangeyellow-text">I love to do</span>.
+    <section className="row about">
+      <div className="col x12 m12 l12">
+        <p>Hi, I am</p>
+        <h1>
+          DEO FLAUREN U. VIRAY <br />
+          <span>FRONT-END DEVELOPER</span>
+        </h1>
+        <p>
+          With 3+ years experience in web development both in public and private
+          sectors. <br /> Excellent coding knowledge in HTML, CSS, JavaScript,
+          and React. <br />A fast learner who loves to consistenly upgrade
+          skills.
         </p>
-
-        <a
-          href="#"
-          className="btn btn-flat orangeyellow dark-orangeyellow-text"
-        >
-          View Resume
-        </a>
+        <button className="btn waves-effect waves-light z-depth-0 ">
+          Download Resume
+        </button>
       </div>
-    </div>
+    </section>
   );
 };
 
